@@ -1,0 +1,456 @@
+@media only screen and (min-width:1300px){
+     .restv{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        display: flex;
+     }  
+     .section-box2 {
+        text-align: center;
+    }
+    .box2-text {
+        margin-top: 96px;
+    }
+    .sec-box img {
+        width: 195px;
+        margin: 133px 0 18px 0;
+    }
+    .sec {
+        padding-bottom: 8px;
+        font-size: 30px;
+    }
+    .small-sec {
+        padding: 0px 45px 0 0;
+        font-weight: 300;
+        font-size: 20px;
+        padding-left: 55px;
+    }
+    .sec-box4 .button-text {
+        font-size: 32px;
+    }
+    .entity-sing{
+        font-size: 58px;
+    }
+    .sec-box4 h1{
+    font-size: 68px;
+    }
+    .head-box ul a, .head-box ul b{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    /* Extrnal add for poistion center logo and footer etc */
+    .restv,.box2-text img{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        display: flex;
+     }
+     /* Navbar logo */
+     .logo-img{
+        margin-left: 110px;
+    }
+    .nav-list{
+        margin-left: 165px;
+    }
+    .section-box2 {
+        text-align: center;
+    }
+    .small-sec{
+        padding: 9px;
+    }
+      .sec-box2{
+        display: flex;
+      }
+    .sec-box img {
+        width: 109px;
+        margin: 119px 32px 0px 26px;
+    }
+    .box2-text {
+        margin-bottom: 0;
+    }
+    .sec-box4{
+        margin: 0 35px;
+    }
+    .social-icon-ul {
+    display: flex;
+    margin: 45px 0 0 28px;
+    }
+    .headerdown img{
+    margin-left: 517px;
+    }
+    .header-menu ul {
+        margin: 12px 15px 59px 11px;
+    }
+    .header-box img {
+        height: 81px;
+        width: 179px;
+    }
+}
+
+ @media only screen and (max-width:1085px) {
+    .section-box2{
+        text-align: left;
+    }
+    .box2-text {
+        margin-bottom: 61px;
+    }
+    .sec {
+        margin-top: 65px;
+        padding-left: 0;
+        font-size: 22px;
+    }
+    .small-sec {
+        margin: 0px 29px 41px 45px;
+    }
+    .sec-box img {
+        width: 88px;
+        margin: 37px;
+        margin-right: 0;
+        height: 120px;
+    }
+    .sec-box5 h2 {
+        font-size: 55px;
+    }
+    .sec-box{
+         width: 50%;
+         display: flex;
+      }
+      .sec-box2{
+        display: flex;
+        flex-wrap: wrap; 
+      }
+}
+
+@media only screen and (max-width:981px) {
+    .nav-res{
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+        font-size: 18px;
+        display: flex;
+    }
+    .nav-list {
+    margin-left: 34px;
+    }
+    .menu-btn{
+        display: flex;
+    }
+    .bt a{
+        font-size: 38px;
+    }
+    .bt2 a{
+        font-size: 26px;
+    }
+    .bt a:hover, .bt2 a :hover{
+        color: #1ed760;;;
+    }
+    /* Navigation Slidebar full styling. */
+    .side{
+        background-color: rgb(3 3 3 / 81%);
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+     }
+     .sidenav {
+       height: 100%;
+       width: 417px;
+       position: fixed;
+       z-index: 1;
+       top: 0;
+       right: 0;
+       transition: 0.5s;
+       background-color: #111;
+       overflow-x: hidden;
+     }
+     .sidenav a {
+       color: #fff;
+       display: block;
+     }
+     .sidenav a:hover {
+        color: #1ed760;
+     }
+     .sidenav .closebtn {
+       position: absolute;
+       top: 0;
+       right: 25px;
+       font-size: 36px;
+       margin-left: 50px;
+     }
+     .Sidenavlogo-img{
+        display: block;
+        width: 171px;
+        margin: 111px 0 0 105px;
+     }
+    .burger{
+       display: block;
+    }
+    .headerdown img{
+       margin-left: 287px;
+     }
+     .header-menu ul {
+        margin: 32px -187px 0 150px;
+     }
+     .social-icon-ul {
+        display: flex;
+        margin: 0;
+     }
+       
+     .header-box img {
+        height: 77px;
+        width: 215px;
+     }
+     .HEAD{
+        margin: 78px 66px 27px -159px;
+     }
+     .head-img {
+        padding: 5px 42px;
+        margin-bottom: 36px;
+     }
+     #gap {
+        font-size: 18px;
+        margin: 19px 0;
+    }
+}
+@media only screen and (max-width:931px) {
+    .imgbox1 img {
+        display: none;
+    }
+    .text-box1 {
+        margin-top: 47px;
+    }
+    .section-box1{
+        height: 395px;
+    }
+
+    .logo-img {
+        width: 126px;
+        height: 43px;
+        margin: 16px 48px 11px 26px;
+    }
+}
+
+@media only screen and (max-width:890px){
+    .headseound-text{
+        margin-left: 301px;
+    }
+}
+
+@media only screen and (max-width:731px) {
+    .restv, .box2-text img {
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+        font-size: 18px;
+        display: flex;
+    }
+    .sec-box img {
+        width: 100px;
+        margin: 44px 22px 29px 20px;
+    }
+    
+    .section-box1 {
+        height: 338px;
+    }
+    .sec{
+        padding: 11px 0 9px 0px;
+        text-align: left;
+    }
+    .sec-box {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        width:auto;
+    }
+    .small-sec {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .text-box1 {
+        font-size: 30px;
+        margin-top: 36px;
+    }
+    .sec-box2 {
+        display: block;
+    }
+    .box2-text{
+        font-size: 26px;
+    }
+    .text-box3{
+        position: relative;
+        height: 78px;
+        background: linear-gradient(transparent, rgb(176, 35, 194));
+        top: -78px;
+        margin-bottom: -78px;
+    }
+    .box3-img,.box3-img img{
+        display:flex;
+        transition-duration: 5s;
+    }
+    .sec-box3 {
+        padding: 100px;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 600;
+        font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    }
+    .HEAD{
+        display: block;
+        margin: 0;
+    }
+    .headseound-text {
+        margin-left: 0;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .head-img {
+        padding: 0;
+        display: block;
+    }
+    .header-menu ul {
+        margin: 37px 25px 0 30px;
+    }
+    .header-box {
+        margin: 0;
+    }
+    .social-icon-ul {
+        display: flex;
+        text-align: end;
+        justify-content: end;
+    }
+}
+
+@media only screen and (max-width:616px){
+    .restv{
+        width: 50%;
+        text-align: left;
+        justify-content: left;
+        font-size: 18px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:555px) {
+    .header-menu ul{
+        display: block;
+    }
+    .header-menu ul {
+        display: block;
+        margin: 10px;
+        padding-top: 5px;
+    }
+    .header-btn{
+        padding: 12px;
+    }
+
+}
+@media only screen and (max-width:538px) {
+    .sidenav{
+        width: 290px;
+    }
+    .Sidenavlogo-img {
+        margin: 111px 0 0 39px;
+    }
+    .nav-list {
+        margin-left: 55px;
+    }
+    .text-box1 {
+        font-size: 19px;
+        margin-top: 79px;
+    }
+    .sec-box4 .button-text {
+        width: 63%;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 37px;
+        font-size: 11px;
+    }
+    .sec-box5 {
+        margin: 81px;
+        font-size: 76px;
+    }
+    .sec-box5 h2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:303px){
+    .sidenav{
+        width: 192px;
+    }
+    .nav-list {
+        margin-left: 0;
+    }
+    .sec {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .sec-box img {
+        margin: 63px 7 22px 0;
+    }
+    .box2-text{
+        margin-bottom: 18px;
+    }
+    .sec-box3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .sec-box4 h1 {
+        margin: 10px;
+        font-size: 25px;
+    }
+    .sec-box5 button {
+        font-size: 9px;
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width:265px){
+  .sec-box img{
+    width: 34px;
+    height: 77px;
+    margin: 0;
+  }
+  .section-box2{
+    margin: 0;
+  }
+  .sec{
+    margin: 0;
+    font-size: 15px;
+  }
+  .small-sec{
+    font-size: 11px;
+  }
+  .img{
+    width: auto;
+  }
+  .sec-box3 {
+    padding: 39px;
+  }
+  .sec-box4 {
+    margin: 0;
+}
+.header-box img {
+    height: 45px;
+    width: 158px;
+}
+.social-icon-ul {
+    margin:0;
+    width: 177px;
+}
+.social-icon a {
+    margin: 6px 5px 0px 4px;
+}
+.Sidenavlogo-img {
+    display: block;
+    width: 171px;
+    margin: 62px 0 0 0;
+}
+
+}

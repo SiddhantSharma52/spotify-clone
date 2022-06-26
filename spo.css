@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Fira+Sans:wght@300&family=Flow+Circular&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* Navbar styling */
+.logo-img{
+width: 200px;
+height: 68px;
+margin: 3px 39px;
+}
+.nav-box{
+  background-color:rgba(0, 0, 0, 0.977);
+  display: flex;
+  width: 100%;
+  height: 75px;
+  }
+.nav-list{
+text-align: center;
+justify-content: center;
+margin-left:394px;
+padding: 26px 0;
+font-weight: 400;
+font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.menu-btn{
+padding: 10px;
+color: #fff;
+font-size: 10px;
+display: inline;
+}
+#gap{
+font-size: 18px;
+}
+.Sidenavlogo-img{
+  display: none;
+}
+.menu-btn a{
+color: #fff; 
+font-size: 18px;
+}
+.menu-btn a:hover{
+color: #1ed760;
+}
+/* side nav bar button styling (burger) */
+.burger{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 26px;
+  color:black;
+  display: none;
+}
+.line{
+  width: 25px;
+  height: 3px;
+  margin: 3px 3px;
+  background-color:#fff;
+  
+}
+/* Box 1 */
+ .section-box1{
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 556px;
+ } 
+.imgbox1 img {
+    width: 408px;
+    height: 597px;
+    margin: 41px 0 0 61px;
+}
+.text-box1{
+    color: #fff;
+    margin-top: 170px;
+    font-size: 37px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.text-box1 button{
+    font-size: 14px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 50px;
+    padding: 14px;
+    font-weight: 700;
+}
+.text-box1 button:hover , .sec-box5 button:hover{
+    font-size: 15px; 
+    border: white;
+}
+
+/* Box2 styling */
+.section-box2{
+  margin: 34px;
+  margin-bottom: 123px;
+}
+.sec{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+.small-sec{
+  text-align: center;
+  justify-content: center;
+  padding: 0px 45px 0 41px;
+  font-weight: 400;
+}
+.sec-box2{
+    display: flex;
+}
+.sec-box img{
+    width: 147px;
+    margin: 133px 50px 12px 78px;
+}
+.box2-text{
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    font-size: 46px;
+    margin: 56px;
+}
+/* Box3 styling */
+.sec-box3{
+    padding: 147px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.box3-img{
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 310px;
+  width: 100%;
+  overflow: hidden;
+  background: url(https://www.scdn.co/i/free/bubbles-phone-mobile.svg) center top 16px /506px 512px no-repeat, white;
+  background-position: center top 16px;
+  background-repeat: no-repeat;
+  display: none;
+}
+.box3-img img{
+  display: none;
+  position: relative;
+  margin: -27px 0 -168px 0px;
+}
+.text-box3{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.text-box3-1{
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+
+}
+
+/* Box4 styling */
+.sec-box4 h1{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: 45px;
+    font-size: 43px;
+}
+.sec-box4 hr{
+    color: rgb(236, 235, 235);
+  }
+  .se-box4{
+    display: none;
+    margin-left: 135px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+  }
+  .sec-box4 .button-text{
+    width: 80%;
+    background-color:#fff;
+    padding: 25px;
+    margin-left: 85px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    position: relative;
+    text-align: left;
+    border-bottom:1px solid rgb(243, 240, 240);
+  }
+  .sec-box4 .button-text:hover{
+    background-color: rgb(241, 239, 239);
+    text-decoration: solid underline;
+  }
+  /* Downarrow */
+  .entity-sing{
+    font-size: 24px;
+    float: right;
+    color: rgb(188, 185, 185);
+  }
+  #first, #Secound ,#third{
+    padding: 30px;
+    margin-left: 55px;
+    font-size: 20px;
+  }
+  #first:hover{
+    background-color: rgb(243, 241, 241);
+  }
+  #Secound:hover{
+    background-color: rgb(243, 241, 241);
+  }
+  #third:hover{
+    background-color: rgb(243, 241, 241);
+  }
+  hr {
+    border-top: 1px solid rgb(238, 238, 238);
+    margin: 0 55px;
+  }
+  /* Box5 styling */
+  .section-box5{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+  }
+  .sec-box5 {
+    margin: 140px;
+  }
+  .sec-box5 h2{
+    color: #fff;
+    font-size: 91px;
+    text-align: center;
+    justify-content: center;
+  }
+  .sec-box5 button{
+    font-size: 14px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 50px;
+    padding: 14px;
+    font-weight: 700;
+  }
+/* Header (footer) */
+  .head-box{
+    background-color: rgb(4, 4, 4);
+    padding: 50px 0 20px;
+  }
+  .head-img{
+    display: flex;
+    padding: 0 15px;
+  }
+  .header-box {
+    margin: 0 auto;
+  }
+  .header-text li{
+    margin: 28px;
+    text-decoration: none; 
+    font-size: 14px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  }
+  .header-box img{
+    height: 73px;
+    width: 210px;
+    cursor: pointer;
+    margin: 0;
+  }
+  .HEAD{
+    display: flex;
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+  }
+  .hover-color ,#headseound-text{
+    color: #fff;
+  }
+  .header-menu ,.header-menu ul, .headerdown {
+    display: flex;
+  }
+  
+  .headerdown{
+    text-align: right;
+    justify-content: right;
+    margin-right: 185px;
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+  }
+  .headseound-text{
+    justify-content: right;
+    display: block;
+    text-align: right;
+    margin-left: 447px;
+    color: rgb(101, 101, 101);
+    font-size: 12px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  }
+  .headseound-text img{
+    width: 11px;
+    height: 10px;
+  }
+  .foot{
+    text-align: right;
+  }
+  .header-menu ul{
+    margin: 6px 0px 67px 135px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+  }
+  .header-menu .hover-color {
+    padding: 10px;
+    color: rgb(101, 101, 101);
+  }
+  /* Social media styling */
+  .social-icon a{
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 14px;
+    font-size: 25px;
+    margin: 8px 14px 0px 19px;
+  }
+  .social-icon a:hover,.hover-color:hover {
+    color: #1ed760;
+  }
+  .social-icon-ul{
+    display: flex;
+      margin: 45px 0 0 217px;
+  }
+  .fa-instagram,.fa-twitter,.fa-facebook {
+    background: rgb(48, 48, 48);
+    color: white;
+  }
+  /* extra add for coloring foot paticular text */
+  .ssss{
+    padding: 0;
+    color: gray;
+  }
+  
+
+
+  
+  
